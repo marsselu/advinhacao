@@ -39,7 +39,7 @@ for rodada in range(1, total_de_tentativas + 1):
         print("Você acertou e fez {} pontos!".format(pontos))
         break
     else:
-        pontos_perdidos = abs(numero_secreto - chute)
+        pontos_perdidos = abs(numero_secreto - chute) #
         pontos = pontos - pontos_perdidos
         if(maior):
             print("O seu chute foi maior que o número secreto")
